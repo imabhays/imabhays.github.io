@@ -15,12 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 title: abhaysingh.dev
 subtitle: my technical journal
+logo: "/assets/images/blog-logo.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: username
+twitter_username: asinf0sec
 github_username: username
 minimal_mistakes_skin: default
 search: true
@@ -59,9 +60,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name   : "Abhay Singh"
+  avatar : "/assets/images/dp-pic.jpg"
+  bio    : "Student of Computer Application (BCA) with interest in information security."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
