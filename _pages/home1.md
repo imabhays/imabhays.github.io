@@ -18,7 +18,7 @@ author_profile: false
 
 
 Sem3 - Discrete Math's resources are up! <br>
-Please go to this [page.]({% post_url 2023-04-20-s3-math-main %}){:target="_blank"}
+Please go [here.]({% post_url 2023-04-20-s3-math-main %}){:target="_blank"}
 {: .notice--info}
 
 

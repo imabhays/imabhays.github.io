@@ -1,7 +1,7 @@
 ---
 title: ""
-permalink: /blog/
-layout: archive
+permalink: /projects/
+layout: single
 
 ---
 

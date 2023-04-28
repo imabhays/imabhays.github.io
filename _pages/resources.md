@@ -26,7 +26,7 @@ toc_icon: list
 
  <!-- * [OverTheWire](https://overthewire.org/wargames/){:target="_blank"} -->
 
-## Technical Skills That Pays Bills
+## Technical Skills That Pay Bills
 * [Linux](https://linuxjourney.com/){:target="_blank"}
 * [DBMS - PostGreSQL](https://www.postgresqltutorial.com/){:target="_blank"}
 * [CS - Foundation](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x){:target="_blank"}

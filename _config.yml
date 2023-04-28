@@ -13,16 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ""
-subtitle: ""
-logo: "/assets/images/blog-logo.png"
-email: imabhaysec@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My personal technical blog to track my progress and create knowledge base for computer science.
-twitter_username: im_abhays
-github_username: imabhays
-minimal_mistakes_skin: air
-search: true
+title                    : ""
+subtitle                 : ""
+title_separator          : "-"
+name                     : "Abhay Singh"
+url                      : https://imabhay.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo                     : "/assets/images/blog-logo.png"
+email                    : imabhaysec@gmail.com
+description              : "My personal technical blog to track my progress and create knowledge base for computer science."
+minimal_mistakes_skin    : air
+search                   : true
+twitter_username         : im_abhays
+github_username          : imabhays
+
 
 # Build settings
 markdown: kramdown
