@@ -1,8 +1,17 @@
 ---
 permalink: /about/
-title: "About"
+title: "Hello!"
+layout: single
+author_profile: true
+
 ---
+<br>
+My name is Abhay Singh, and I have a strong background in the creative field. However, I have decided to pivot my career towards the technical field, with a particular focus on information security. Currently, I am a student pursuing a [Bachelor of Computer Application (BCA)](/bca-resources.md) from Amrita Vishwa Vidyapeetham, where I am building a solid foundation in computer science principles.
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I maintain this site to document my learnings, write technical articles, and create knowledge base every semester for fellow students. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+My ultimate focus is to work in application security, and I am putting all my efforts into achieving this goal.  Additionally, I am preparing for CCNA certification to enhance my knowledge and skills in data and cyber security.
+
+Thank you for taking the time to learn about me.<br>
+
+Would you like to connect? Drop me an [email.](mailto:imabhaysec@gmail.com)

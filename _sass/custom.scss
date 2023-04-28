@@ -1,0 +1,58 @@
+.centered-container {
+  padding: 1em 0;
+  text-align: center;
+}
+
+.hello {
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.introduction {
+  font-size: 2em;
+}
+
+.name {
+  font-weight: bold;
+  color: royalblue;
+  display: inline-block;
+
+  &:hover {
+    color: #5983ff;
+  }
+}
+
+.emphasis {
+  font-weight: bold;
+}
+
+
+// custom font sizes
+
+
+// Change font size for paragraphs in posts and pages
+/* .page__content p,
+.post__content p {
+  font-size: 0.75em;
+}
+
+// Change font size for headings
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 20px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+*/

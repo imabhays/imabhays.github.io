@@ -9,3 +9,29 @@ main:
     url: /projects/
   - title: "Tags"
     url: /tags/
+
+s3maths:
+  - title: Practice
+    children:
+      - title: "Main"
+        url: /bca/s3-math-main/
+      - title: "Flashcards"
+        url: /bca/s3-math-flashcard/
+  - title: Week 1
+    children:
+      - title: "Mathematical Statements"
+        url: /bca/s3-math-w1/
+  - title: Week 2
+    children:
+      - title: "Practice Problems"
+        url: /bca/s3-math-w2/
+      - title: "Logical Equivalence Table"
+        url: /bca/s3-math-w2-2/
+  - title: Week 3
+    children:
+      - title: "Applications"
+        url: /bca/s3-math-w3/
+  - title: Week 4
+    children:
+      - title: "Set Theory"
+        url: /bca/s3-math-w4/

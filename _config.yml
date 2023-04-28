@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: ABHAY SINGH
-subtitle: my technical journal
+title: ""
+subtitle: ""
 logo: "/assets/images/blog-logo.png"
-email: abhaysinghit84@gmail.com
+email: imabhaysec@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal technical blog to track my progress and knowledge base for computer science.
-twitter_username: asinf0sec
-github_username: absecnet
-minimal_mistakes_skin: default
+  My personal technical blog to track my progress and create knowledge base for computer science.
+twitter_username: im_abhays
+github_username: imabhays
+minimal_mistakes_skin: air
 search: true
 
 # Build settings
@@ -60,32 +60,39 @@ plugins:
 author:
   name   : "Abhay Singh"
   avatar : "/assets/images/dp-pic.jpg"
-  bio    : "Student of Computer Application (BCA) with interest in information security."
+  bio    : "Student of Bachelor of Computer Application (BCA) with interest in Information Security."
+  location : "Gurgaon, HR (NCR)"
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:imabhaysec@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      # url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/im_abhays"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/imabhays"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      # url: "https://instagram.com/"
 
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:imabhaysec@gmail.com
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/im_abhays"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/imabhays"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      # url: "https://instagram.com/"
 
 defaults:
   # _posts
@@ -94,7 +101,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -105,7 +112,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
@@ -113,3 +120,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+
+github: [metadata]
