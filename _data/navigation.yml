@@ -33,5 +33,9 @@ s3maths:
         url: /bca/s3-math-w3/
   - title: Week 4
     children:
-      - title: "Set Theory"
+      - title: "Set-Theory"
         url: /bca/s3-math-w4/
+  - title: Week 5
+    children:
+      - title: "Functions"
+        url: /bca/s3-math-w5/
