@@ -28,7 +28,8 @@ tags:
 * [All Combined](https://quizlet.com/_d657q2?x=1jqt&i=44s59k){:target="_blank"}
 
 All flashcards are made and hosted on Quizlet.
-<br>You might need to flip card and check the attached image to see the questions with "images".
+<br>Those questions that are image dependent, please flip the flashcard to see the image and answer the question. 
+Image can't be attached on the front unlike rear.
 {: .notice--info}
 
 Report via telegram or email if you want to make any corrections.

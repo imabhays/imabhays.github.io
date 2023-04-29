@@ -11,7 +11,7 @@ main:
     url: /tags/
 
 s3maths:
-  - title: Practice
+  - title: Course Info
     children:
       - title: "Main"
         url: /bca/s3-math-main/
