@@ -60,6 +60,14 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Google analytics
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-ZDNT68NSPB"
+    anonymize_ip: false # default
+
 author:
   name   : "Abhay Singh"
   avatar : "/assets/images/dp-pic.jpg"
