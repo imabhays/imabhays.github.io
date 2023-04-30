@@ -39,3 +39,7 @@ s3maths:
     children:
       - title: "Functions"
         url: /bca/s3-math-w5/
+  - title: Week 9-10
+    children:
+      - title: "Number Theory"
+        url: /bca/s3-math-w9-w10/
