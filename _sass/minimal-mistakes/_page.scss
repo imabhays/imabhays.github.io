@@ -108,8 +108,17 @@ body {
   p,
   li,
   dl {
-    font-size: 1em;
+    font-size: 0.85rem;
   }
+
+  /*
+  ul {
+    font-size: 0.5rem;
+  }
+  ul li ul {
+    font-size: 0.5rem;
+  }
+  */
 
   /* paragraph indents */
   p {
