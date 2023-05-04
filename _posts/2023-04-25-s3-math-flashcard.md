@@ -32,5 +32,5 @@ All flashcards are made and hosted on Quizlet.
 Image can't be attached on the front unlike rear.
 {: .notice--info}
 
-Report via telegram or email if you want to make any corrections.
+Report via telegram or [email](mailto:abhaysinghit84@gmail.com; imabhaysec@gmail.com) if you want to make any corrections.
 {: .notice--warning}

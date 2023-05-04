@@ -17,8 +17,13 @@ author_profile: false
 </div>
 
 
-Sem3 - Discrete Math's resources are up! <br>
+Sem3 - Discrete Math's resources are up!\
 Please go [here.]({% post_url 2023-04-20-s3-math-main %})
+{: .notice--info}
+
+Sem3 - Python's resources are up!\
+Lab assignments will be added later.\
+Please go [here.]({% post_url 2023-05-04-s3-python-main %})
 {: .notice--info}
 
 

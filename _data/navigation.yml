@@ -49,3 +49,15 @@ s3maths:
     children:
       - title: "Graph Theory - Basics"
         url: /bca/s3-math-w11-w13-basics/
+
+s3python:
+  - title: Course Info
+    children:
+      - title: "Main"
+        url: /bca/s3-python-main/
+      - title: "Flashcards"
+        url: /bca/s3-python-flashcard/
+  - title: Lab
+    children:
+      - title: "Assignment 1"
+        url: /bca/s3-python-assignment-1/
