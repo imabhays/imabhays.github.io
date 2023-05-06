@@ -43,8 +43,11 @@ s3maths:
     children:
       - title: "Number Theory"
         url: /bca/s3-math-w9-w10/
+      - title: "Number Theory -2 "
+        url: /bca/s3-math-w9-mi/
       - title: "Number Theory - Applications"
         url: /bca/s3-math-w9-w10-apps/
+
   - title: Week 11-13
     children:
       - title: "Graph Theory - Basics"
