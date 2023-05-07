@@ -2,7 +2,7 @@
 layout: single
 classes: wide
 title: "Semester 3 - Python - Assignment 1"
-excerpt: "Flashcards for Python"
+excerpt: "Sem 3 - Python Assignment 1"
 sidebar:
     nav: "s3python"
 header:
@@ -13,11 +13,12 @@ toc_label: "Your Custom Label"
 toc_icon: "icon-class-name"
 categories: bca
 tags:
-  - flashcards
   - python
   - pythin basics
   - python essentials
   - bca
+  - netacad
+  - pcap
 ---
 
 Q1. For any Programming Language requires some basic concepts, Briefly explain the following concepts\

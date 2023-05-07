@@ -60,7 +60,15 @@ s3python:
         url: /bca/s3-python-main/
       - title: "Flashcards"
         url: /bca/s3-python-flashcard/
-  - title: Lab
+  - title: Lab/Assignments
     children:
       - title: "Assignment 1"
         url: /bca/s3-python-assignment-1/
+      - title: "Assignment 2"
+        url: /bca/s3-python-assignment-2/
+      - title: "Assignment 3"
+        url: /bca/s3-python-assignment-3/
+      - title: "Assignment 4"
+        url: /bca/s3-python-assignment-4/
+      - title: "All Exercises"
+        url: /bca/s3-python-all-exercises/

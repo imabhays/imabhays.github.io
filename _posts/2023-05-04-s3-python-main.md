@@ -26,6 +26,14 @@ toc_icon: "list-ul"
 ---
 
 <br>
+
+
+**Official release of Documents** \
+[Descriptive Questions](https://drive.google.com/open?id=11ZEPkyWqrT__FPziXo8PDVpPDvQ1_DK6&authuser=ab26042023%40gmail.com&usp=drive_fs){:target="_blank"}\
+[MCQ Questions](https://drive.google.com/open?id=11Ymn9By8cc7wv2hHUEbjr4Ev2deUb8aN&authuser=ab26042023%40gmail.com&usp=drive_fs){:target="_blank"}\
+[Question Pattern](https://drive.google.com/open?id=11b6xzDtUWxOYwpBZzlLEMHsTA2hs_ofq&authuser=ab26042023%40gmail.com&usp=drive_fs){:target="_blank"}
+{: .notice--danger}
+
 **Course Name**: Introduction to Python Programming
 
 **Course Name On Netacad**: Programming Essentials in Python
@@ -58,3 +66,7 @@ toc_icon: "list-ul"
 
 ## Mock Exam Screens
 [Screenshots](https://drive.google.com/open?id=10hk7yuFHVquNPUEocqQrgzqYfGecvLlb&authuser=ab26042023%40gmail.com&usp=drive_fs){:target="_blank"}{: .btn .btn--primary}
+
+## Tool
+
+[PythonTutor to visualize your code](https://pythontutor.com/visualize.html#mode=edit){:target="_blank"}
