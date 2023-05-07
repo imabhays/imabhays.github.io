@@ -30,6 +30,7 @@ toc_icon: "list-ul"
 
 **Official release of Documents** \
 [Descriptive Questions](https://drive.google.com/open?id=11ZEPkyWqrT__FPziXo8PDVpPDvQ1_DK6&authuser=ab26042023%40gmail.com&usp=drive_fs){:target="_blank"}\
+[Shorter version of Descriptive](https://docs.google.com/document/d/1UQOHzHun7qtGQPFR-TkfHbqGURjXPZtxzEmU_Lv6j0g/edit?usp=sharing){:target="_blank"}\
 [MCQ Questions](https://drive.google.com/open?id=11Ymn9By8cc7wv2hHUEbjr4Ev2deUb8aN&authuser=ab26042023%40gmail.com&usp=drive_fs){:target="_blank"}\
 [Question Pattern](https://drive.google.com/open?id=11b6xzDtUWxOYwpBZzlLEMHsTA2hs_ofq&authuser=ab26042023%40gmail.com&usp=drive_fs){:target="_blank"}
 {: .notice--danger}
