@@ -26,7 +26,7 @@ tags:
 
 * [All Cisco Netacad PCAP Modules & Final test](https://quizlet.com/abhaysinghit84/folders/sem3_python?x=1xqt&i=44s59k){:target="_blank"}
 * [Assignment 2 - MCQ](https://quizlet.com/_d7zluc?x=1jqt&i=44s59k){:target="_blank"}
-* [All Combined](https://quizlet.com/_d801s4?x=1jqt&i=44s59k){:target="_blank"}
+* [All Combined](https://quizlet.com/_d8gak9?x=1jqt&i=44s59k){:target="_blank"}
 
 All flashcards are made and hosted on Quizlet.
 <br>For those questions that are image dependent, please flip the flashcard to see the image and answer the question. 
