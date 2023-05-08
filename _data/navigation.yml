@@ -72,3 +72,12 @@ s3python:
         url: /bca/s3-python-assignment-4/
       - title: "All Exercises"
         url: /bca/s3-python-all-exercises/
+
+
+s3cn:
+  - title: Course Info
+    children:
+      - title: "Main"
+        url: /bca/s3-cn-main/
+      - title: "Flashcards"
+        url: /bca/s3-cn-flashcard/

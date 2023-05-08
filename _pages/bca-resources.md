@@ -18,7 +18,7 @@ share: true
 ## Third Semester
 * [Discrete Mathematics]({% post_url 2023-04-20-s3-math-main %})
 * [Programming Essentials in Python]({% post_url 2023-05-04-s3-python-main %})
-* [Computer Networks & Lab]
+* [Computer Networks & Lab]({% post_url 2023-05-08-s3-cn-main %})
 * [Data Structure and Algorithm]
 * [Data Mining]
 

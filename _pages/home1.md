@@ -17,12 +17,11 @@ author_profile: false
 </div>
 
 
-Sem3 - Python's resources are up!\
-Lab assignments will be added later.\
-Please go [here.]({% post_url 2023-05-04-s3-python-main %})
+
+
+Sem3 - Computer Network's resources are up!\
+Please go [here.]({% post_url 2023-05-08-s3-cn-main %})
 {: .notice--info}
-
-
 
 
 
