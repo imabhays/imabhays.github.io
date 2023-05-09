@@ -81,3 +81,12 @@ s3cn:
         url: /bca/s3-cn-main/
       - title: "Flashcards"
         url: /bca/s3-cn-flashcard/
+  - title: Practice
+    children:
+      - title: "ITN FINAL - Random 10 MCQs"
+        url: /bca/s3-cn-mcq-final-fast/
+      - title: "ITN FINAL - Random 60 MCQs"
+        url: /bca/s3-cn-mcq-final/
+      - title: "ITN FINAL - Answers"
+        url: /bca/s3-cn-mcq-final-ans/
+      
