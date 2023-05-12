@@ -30,7 +30,8 @@ toc_icon: "list-ul"
 
 ## Prerequisites for Subnetting
 
-Let's have a clear understanding of basic terms before starting actual subnetting.
+Let's have a clear understanding of basic terms before starting actual subnetting.  
+If you have a foundational knowledge of networking, then you might want to visit the [subnetting Ip4]({% post_url 2023-05-12-s3-cn-subnetting %})
 
 ## Some important & frequently used terms
 
