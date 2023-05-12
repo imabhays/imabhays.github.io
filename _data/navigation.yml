@@ -89,8 +89,10 @@ s3cn:
         url: /bca/s3-cn-mcq-final/
       - title: "ITN FINAL - Answers"
         url: /bca/s3-cn-mcq-final-ans/
-  - title: Descriptive Questions
+  - title: Important Topics
     children:
       - title: "Questions from Mock"
         url: /bca/s3-cn-mock1/
+      - title: "Imprtant Topics Part 1"
+        url: /bca/s3-cn-des1/
       

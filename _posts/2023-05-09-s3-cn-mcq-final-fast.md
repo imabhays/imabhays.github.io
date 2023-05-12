@@ -1,12 +1,12 @@
 ---
 layout: single
 classes: wide
-title: "Semester 3 - Computer Networks - MCQ - ITN Final - 20 MCQ"
+title: "Semester 3 - Computer Networks - ITN Final - 20 MCQ"
 excerpt: "MCQs for Comuter Networks"
 sidebar:
     nav: "s3cn"
 header:
-  teaser: /assets/images/bca/s3-cn-fc.jpg
+  teaser: /assets/images/bca/s3-cn-fast.jpg
 categories: bca
 tags:
   - flashcards
