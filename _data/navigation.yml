@@ -95,4 +95,10 @@ s3cn:
         url: /bca/s3-cn-mock1/
       - title: "Imprtant Topics Part 1"
         url: /bca/s3-cn-des1/
+      - title: "Prerequisites for Subnetting (Optional)"
+        url: /bca/s3-cn-subnet-pre/
+      - title: "Subnetting"
+        url: /bca/s3-cn-subnetting/
+      - title: "Reference"
+        url: /bca/s3-cn-ref/     
       
