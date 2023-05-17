@@ -19,8 +19,8 @@ author_profile: false
 
 
 
-Sem3 - Computer Network's resources are up!\
-Please go [here.]({% post_url 2023-05-08-s3-cn-main %})
+Sem3 - DSA's resources are up!\
+Please go [here.]({% post_url 2023-05-15-s3-dsa-main %})
 {: .notice--info}
 
 

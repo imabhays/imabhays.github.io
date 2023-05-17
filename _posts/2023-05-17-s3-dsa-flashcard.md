@@ -1,0 +1,38 @@
+---
+layout: single
+classes: wide
+title: "Semester 3 - DSA - Flashcards"
+excerpt: "Flashcards for DSA"
+sidebar:
+    nav: "s3dsa"
+header:
+  teaser: /assets/images/bca/s3-dsa-fc.jpg
+toc: false
+toc_sticky: true
+toc_label: "Your Custom Label"
+toc_icon: "icon-class-name"
+categories: bca
+tags:
+  - flashcards
+  - bca
+  - dsa
+  - algorithm
+  - data structure
+  - java
+---
+  
+## Flashcards
+
+* [DSA - All Quizzes Combined](https://quizlet.com/_dabklb?x=1jqt&i=44s59k){:target="_blank"}
+
+
+
+<br>
+
+All flashcards are made and hosted on Quizlet.
+<br>For those questions that are image dependent, please flip the flashcard to see the image and answer the question. 
+This is because image can't be attached on the front unlike rear.
+{: .notice--info}
+
+Report via telegram or [email](mailto:abhaysinghit84@gmail.com; imabhaysec@gmail.com) if you want to make any corrections.
+{: .notice--warning}

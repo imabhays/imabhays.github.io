@@ -100,5 +100,12 @@ s3cn:
       - title: "Subnetting"
         url: /bca/s3-cn-subnetting/
       - title: "Reference"
-        url: /bca/s3-cn-ref/     
-      
+        url: /bca/s3-cn-ref/  
+
+s3dsa:
+  - title: Course Info
+    children:
+      - title: "Main"
+        url: /bca/s3-dsa-main/
+      - title: "Flashcards"
+        url: /bca/s3-dsa-flashcard/
