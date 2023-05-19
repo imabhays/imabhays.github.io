@@ -19,13 +19,14 @@ tags:
   - java
 category:
   - bca
-toc: true
+toc: false
 toc_sticky: true
 toc_label: "On This Page"
 toc_icon: "list-ul"
 
 ---
 
+<br>
 
 Q1. The postfix form a given string S = ABC+-T*, then the find out the S.  
    A) (A-(B+C))*T  
@@ -223,3 +224,4 @@ Q17. What is the maximum number of parentheses that will appear on the stack at 
 At any point during the evaluation, the maximum number of parentheses on the stack is 3.
 
 
+<br>

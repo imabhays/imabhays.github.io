@@ -115,4 +115,5 @@ s3dsa:
         url: /bca/s3-dsa-imp2/
       - title: "Sample Test - Answers"
         url: /bca/s3-dsa-sample-test-ans/
-        
+      - title: "Mock Theory - Answers"
+        url: /bca/s3-dsa-mock-theory/
