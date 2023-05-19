@@ -109,3 +109,7 @@ s3dsa:
         url: /bca/s3-dsa-main/
       - title: "Flashcards"
         url: /bca/s3-dsa-flashcard/
+      - title: "Important Topics - Part 1"
+        url: /bca/s3-dsa-imp1/
+      - title: "Important Topics - Part 2"
+        url: /bca/s3-dsa-imp2/
