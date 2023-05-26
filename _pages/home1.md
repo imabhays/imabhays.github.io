@@ -19,8 +19,8 @@ author_profile: false
 
 
 
-Sem3 - DSA's resources are up!\
-Please go [here.]({% post_url 2023-05-15-s3-dsa-main %})
+Sem3 - Data Mining's resources are up!\
+Please go [here.]({% post_url 2023-05-26-s3-mining-main %})
 {: .notice--info}
 
 

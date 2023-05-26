@@ -117,3 +117,19 @@ s3dsa:
         url: /bca/s3-dsa-sample-test-ans/
       - title: "Mock Theory - Answers"
         url: /bca/s3-dsa-mock-theory/
+
+s3dm:
+  - title: Course Info
+    children:
+      - title: "Main"
+        url: /bca/s3-mining-main/
+      - title: "Flashcards"
+        url: /bca/s3-mining-flashcard/
+      - title: "Week 1 - 4"
+        url: /bca/s3-mining-w1-w4/
+      - title: "Week 5 - 7"
+        url: /bca/s3-mining-w5-w7/
+      - title: "Week 8 - 10"
+        url: /bca/s3-mining-w8-w10/
+      - title: "Week 11 - 14"
+        url: /bca/s3-mining-w11-w14/
