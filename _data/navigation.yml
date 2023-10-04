@@ -14,122 +14,182 @@ s3maths:
   - title: Course Info
     children:
       - title: "Main"
-        url: /bca/s3-math-main/
+        url: /posts/bca/s3-math-main/
       - title: "Flashcards"
-        url: /bca/s3-math-flashcard/
+        url: /posts/bca/s3-math-flashcard/
   - title: Week 1
     children:
       - title: "Mathematical Statements"
-        url: /bca/s3-math-w1/
+        url: /posts/bca/s3-math-w1/
   - title: Week 2
     children:
       - title: "Practice Problems"
-        url: /bca/s3-math-w2/
+        url: /posts/bca/s3-math-w2/
       - title: "Logical Equivalence Table"
-        url: /bca/s3-math-w2-2/
+        url: /posts/bca/s3-math-w2-2/
   - title: Week 3
     children:
       - title: "Applications"
-        url: /bca/s3-math-w3/
+        url: /posts/bca/s3-math-w3/
   - title: Week 4
     children:
       - title: "Set-Theory"
-        url: /bca/s3-math-w4/
+        url: /posts/bca/s3-math-w4/
   - title: Week 5
     children:
       - title: "Functions"
-        url: /bca/s3-math-w5/
+        url: /posts/bca/s3-math-w5/
   - title: Week 9-10
     children:
       - title: "Number Theory"
-        url: /bca/s3-math-w9-w10/
+        url: /posts/bca/s3-math-w9-w10/
       - title: "Number Theory -2 "
-        url: /bca/s3-math-w9-mi/
+        url: /posts/bca/s3-math-w9-mi/
       - title: "Number Theory - Applications"
-        url: /bca/s3-math-w9-w10-apps/
+        url: /posts/bca/s3-math-w9-w10-apps/
 
   - title: Week 11-13
     children:
       - title: "Graph Theory - Basics"
-        url: /bca/s3-math-w11-w13-basics/
+        url: /posts/bca/s3-math-w11-w13-basics/
 
 s3python:
   - title: Course Info
     children:
       - title: "Main"
-        url: /bca/s3-python-main/
+        url: /posts/bca/s3-python-main/
       - title: "Flashcards"
-        url: /bca/s3-python-flashcard/
+        url: /posts/bca/s3-python-flashcard/
   - title: Lab/Assignments
     children:
       - title: "Assignment 1"
-        url: /bca/s3-python-assignment-1/
+        url: /posts/bca/s3-python-assignment-1/
       - title: "Assignment 2"
-        url: /bca/s3-python-assignment-2/
+        url: /posts/bca/s3-python-assignment-2/
       - title: "Assignment 3"
-        url: /bca/s3-python-assignment-3/
+        url: /posts/bca/s3-python-assignment-3/
       - title: "Assignment 4"
-        url: /bca/s3-python-assignment-4/
+        url: /posts/bca/s3-python-assignment-4/
       - title: "All Exercises"
-        url: /bca/s3-python-all-exercises/
+        url: /posts/bca/s3-python-all-exercises/
 
 
 s3cn:
   - title: Course Info
     children:
       - title: "Main"
-        url: /bca/s3-cn-main/
+        url: /posts/bca/s3-cn-main/
       - title: "Flashcards"
-        url: /bca/s3-cn-flashcard/
+        url: /posts/bca/s3-cn-flashcard/
   - title: Practice
     children:
       - title: "ITN FINAL - Random 10 MCQs"
-        url: /bca/s3-cn-mcq-final-fast/
+        url: /posts/bca/s3-cn-mcq-final-fast/
       - title: "ITN FINAL - Random 60 MCQs"
-        url: /bca/s3-cn-mcq-final/
+        url: /posts/bca/s3-cn-mcq-final/
       - title: "ITN FINAL - Answers"
-        url: /bca/s3-cn-mcq-final-ans/
+        url: /posts/bca/s3-cn-mcq-final-ans/
   - title: Important Topics
     children:
       - title: "Questions from Mock"
-        url: /bca/s3-cn-mock1/
+        url: /posts/bca/s3-cn-mock1/
       - title: "Imprtant Topics Part 1"
-        url: /bca/s3-cn-des1/
+        url: /posts/bca/s3-cn-des1/
       - title: "Prerequisites for Subnetting (Optional)"
-        url: /bca/s3-cn-subnet-pre/
+        url: /posts/bca/s3-cn-subnet-pre/
       - title: "Subnetting"
-        url: /bca/s3-cn-subnetting/
+        url: /posts/bca/s3-cn-subnetting/
       - title: "Reference"
-        url: /bca/s3-cn-ref/  
+        url: /posts/bca/s3-cn-ref/  
 
 s3dsa:
   - title: Course Info
     children:
       - title: "Main"
-        url: /bca/s3-dsa-main/
+        url: /posts/bca/s3-dsa-main/
       - title: "Flashcards"
-        url: /bca/s3-dsa-flashcard/
+        url: /posts/bca/s3-dsa-flashcard/
       - title: "Important Topics - Part 1"
-        url: /bca/s3-dsa-imp1/
+        url: /posts/bca/s3-dsa-imp1/
       - title: "Important Topics - Part 2"
-        url: /bca/s3-dsa-imp2/
+        url: /posts/bca/s3-dsa-imp2/
       - title: "Sample Test - Answers"
-        url: /bca/s3-dsa-sample-test-ans/
+        url: /posts/bca/s3-dsa-sample-test-ans/
       - title: "Mock Theory - Answers"
-        url: /bca/s3-dsa-mock-theory/
+        url: /posts/bca/s3-dsa-mock-theory/
 
 s3dm:
   - title: Course Info
     children:
       - title: "Main"
-        url: /bca/s3-mining-main/
+        url: /posts/bca/s3-mining-main/
       - title: "Flashcards"
-        url: /bca/s3-mining-flashcard/
+        url: /posts/bca/s3-mining-flashcard/
       - title: "Week 1 - 4"
-        url: /bca/s3-mining-w1-w4/
+        url: /posts/bca/s3-mining-w1-w4/
       - title: "Week 5 - 7"
-        url: /bca/s3-mining-w5-w7/
+        url: /posts/bca/s3-mining-w5-w7/
       - title: "Week 8 - 10"
-        url: /bca/s3-mining-w8-w10/
+        url: /posts/bca/s3-mining-w8-w10/
       - title: "Week 11 - 14"
-        url: /bca/s3-mining-w11-w14/
+        url: /posts/bca/s3-mining-w11-w14/
+
+
+linux21days:
+  - title: Linux Upskill Challenge
+    children:
+      - title: "Day 01"
+        url: /linux21days/day1/
+      - title: "Day 02"
+        url: /linux21days/day2/
+      - title: "Day 03"
+        url: /linux21days/day3/
+      - title: "Day 04"
+        url: /linux21days/day4/
+      - title: "Day 05"
+        url: /linux21days/day5/
+      - title: "Day 06"
+        url: /linux21days/day6/
+      - title: "Day 07"
+        url: /linux21days/day7/
+      - title: "Day 08"
+        url: /linux21days/day8/
+      - title: "Day 09"
+        url: /linux21days/day9/
+      - title: "Day 10"
+        url: /linux21days/day10/
+      - title: "Day 11"
+        url: /linux21days/day11/
+      - title: "Day 12"
+        url: /linux21days/day12/
+      - title: "Day 13"
+        url: /linux21days/day13/
+      - title: "Day 14"
+        url: /linux21days/day14/
+      - title: "Day 15"
+        url: /linux21days/day15/  
+      - title: "Day 16"
+        url: /linux21days/day16/
+      - title: "Day 17"
+        url: /linux21days/day17/
+      - title: "Day 18"
+        url: /linux21days/day18/
+      - title: "Day 19"
+        url: /linux21days/day19/
+      - title: "Day 20"
+        url: /linux21days/day20/
+      - title: "Day 21"
+        url: /linux21days/day21/  
+
+
+
+
+s4ds:
+  - title: Course Info
+    children:
+      - title: "Flashcards"
+        url: /sem4/s4-de-flashcards/
+      - title: "Important Topics - Part 1"
+        url: /sem4/s4-de-important-topics-p1/
+      - title: "Important Topics - Part 2"
+        url: /sem4/s4-de-important-topics-p2/

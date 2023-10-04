@@ -18,9 +18,10 @@ author_profile: false
 
 
 
+<br>
 
-Sem3 - Data Mining's resources are up!\
-Please go [here.]({% post_url 2023-05-26-s3-mining-main %})
+<u><strong>Recent Updates:</strong></u>  
+[Distributed System's Notes are up!]({% link _sem4/2023-10-01-s4-de-important-topics-p1.md %})
 {: .notice--info}
 
 

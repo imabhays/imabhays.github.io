@@ -132,12 +132,18 @@ a {
 
   &:visited {
     color: $link-color-visited;
+    font-weight: bold;
   }
 
   &:hover {
     color: $link-color-hover;
     outline: 0;
+    //font-weight: bold;
   }
+
+  //font-weight: bold; // Add this line to make the link text bold in the default state
+
+  
 }
 
 /* buttons */

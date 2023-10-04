@@ -22,3 +22,5 @@ share: true
 * [Data Structure and Algorithm]({% post_url 2023-05-15-s3-dsa-main %})
 * [Data Mining]({% post_url 2023-05-26-s3-mining-main %})
 
+## Fourth Semester
+* [Distributed System]({% link _sem4/2023-10-01-s4-de-important-topics-p1.md %})
