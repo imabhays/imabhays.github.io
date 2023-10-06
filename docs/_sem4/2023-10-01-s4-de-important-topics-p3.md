@@ -1,12 +1,12 @@
 ---
 layout: single
 classes: wide
-title: "Distributed System - Important Topics - Part 2"
+title: "Distributed System - Important Topics - Part 3"
 excerpt: "DE - Important Topics"
 sidebar:
     nav: "s4ds"
 header:
-  teaser: /assets/images/bca/s4-ds-p2.jpg
+  teaser: /assets/images/bca/s4-ds-p3.jpg
 author_profile: false
 comments: false
 share: true
