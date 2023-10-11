@@ -182,3 +182,247 @@ into hierarchical domains.
   - Exhaustive search through all descriptors can be performance-intensive.
   - Balancing the load among servers for attribute-based queries is essential.
 
+## Synchronisation, Mutual exclusion, Election Algorithms
+
+Synchronization in distributed processes involves:
+
+- **Clocks**: Identifying when something occurred.
+- **Mutual exclusion**: Cordinate between processes that access the same resource.
+- **Election algorithm**: A group of entities elect one entity as the coordinator for solving a problem.
+- **Message consistency**: Making sure all have the same view of events.
+- **Agreement**: Ensuring everyone can agree on a proposed value.
+
+These aspects are simple in non-distributed systems but become complex in distributed systems.
+
+- **Time Synchronization**
+
+  1. **Physical Clock Synchronization (or simply known as Clock Synchronization)**
+    - actual time on computers are synchronized
+  2. [**Logical Clock Synchronization**](#id1)
+    - Computers/processes are synchronized based on relative ordering of evenings
+
+### Physical Clock Synchronization or Clock Synchronization
+
+- **Skew**: the difference between the times on two clocks (at any instant)
+- **Clock drift**: counting of time at different rates
+- **Clock drift rate**: the difference per unit of time from some ideal reference clock
+  - Correction Methods: Not a good idea to set a clock back for message ordering and software development environments.
+  - Gradual clock correction
+    - If Fast: The system will slow down the clock until it synchronizes with a reference clock.
+    - If Slow: The system will speed up the clock until synchronization is achieved.
+- Ordinary quartz clocks drift by about 1 sec in 11-12 days. (10-6 secs/sec).
+- High precision quartz clocks drift rate is about 10-7 or 10-8 secs/sec
+
+**Types of Physical Clocks:**
+1. **Quartz Clock**:
+- It uses a quartz oscillator that typically oscillates at 32KHz.
+- The clock drift is around +/- 15 seconds per month.
+- Not suitable for large distributed systems due to its drift.
+2. **Atomic Clock**:
+- Uses Caesium 133 as an oscillator.
+- Extremely accurate with a drift rate of 10<sup>8</sup> ppm.
+- Often used in satellites for GPS.
+- UTC
+
+**Problem**
+- Sometimes we simply need the exact time, not just an ordering.
+- Solution: Universal Coordinated Time (UTC)
+- Based on the number of transitions per second of the cesium 133 atom (accurate).
+- At present, the real time is taken as the average of some 50 cesium clocks around the world.
+- Introduces a leap second from time to time to compensate that days are getting longer.
+
+1. **Precision**:
+   - Ensure that the time difference between two clocks (from any two machines) is within a certain acceptable range called π.
+   - **Equation**: `|Cp(t) − Cq(t)| ≤ π`
+     - Meaning: The absolute difference between clock p's time (`Cp`) and clock q's time (`Cq`) at any moment 't' should be less than or equal to π.
+
+2. **Accuracy**:
+   - Ensure a clock's time is close to the actual or real time (UTC) by a specified range called α.
+   - **Equation**: `|Cp(t) − t| ≤ α`
+     - Meaning: The absolute difference between the time shown by machine p's clock (`Cp`) and the real time 't' should be less than or equal to α.
+
+3. **Synchronization**:
+   - **Internal**: Adjust clocks so they're consistent with each other (precision).
+   - **External**: Adjust clocks so they're close to the real time (accuracy).
+
+#### NTP (Network Time Protocol)
+
+  ![image-center](/assets/images/bca/s4-ds/s4-ds-ntp-1.png){: .align-center}{: width="700" }
+
+*NTP*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+- NTP is a protocol used to synchronize computer clocks over a network.
+- It uses a hierarchical structure of time servers distributed across internet
+  - Each layer termed as a 'stratum'. The stratum 0 or 1 (whichever is first) servers are the most accurate and are often connected to atomic clocks (UTC).
+- NTP can adjust the time on a system gradually, compensating for latency and jitter, to align with the reference time.
+- NTP relies on network communication to achieve synchronization.
+- Scalable to large number of clients and servers
+- Authenticates time sources to protect against wrong time data
+
+  ![image-center](/assets/images/bca/s4-ds/s4-ds-ntp-2.png){: .align-center}{: width="700" }
+
+*Levels in the synchronization subtree and exchange of timestamps between servers and clients via UDP*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+- Modes of synchronization
+  - **Multicast**: 
+    - Server in LAN sends time to others, assumes delay. (Less accurate)
+
+  - **Procedure Call**:
+    - Server takes requests, adjusts time. (More accurate than multicast)
+
+  - **Symmetric**:
+    - Server pairs share time info. 
+    - Used for high accuracy needs.
+
+  - All modes use UDP for time data transfer.
+
+{: #id1}
+### Logical Clocks 
+
+- **Happened-before Relationship:**
+  - It's important that processes agree on the order of events, not the exact time.
+  - Key rules:
+    - In the same process, if event a happens before b, it's a → b.
+    - If a sends and b receives a message, it's a → b.
+    - If a → b and b → c, then a → c.
+
+- Logical Clocks's Problem: To keep a global view matching the happened-before order.
+
+  - Solutions:
+    - Use timestamps for events. If a → b, the timestamp of a is less than b.
+    - With no global clock, use a separate logical clock for each process.
+
+- **Lamport's Logical Clocks**: 
+- P1 sends a message to P2, including the send time.
+- P2 logs its receive time.
+- If P2's time is earlier than the sent time, it adjusts its clock slightly ahead (1 milli second at least).
+- If P2's time is later, no change is made.
+- This preserves the order of message events ("happens-before" relationship).
+
+  ![image-center](/assets/images/bca/s4-ds/s4-ds-lamport-1.png){: .align-center}{: width="700" }
+
+*Example showing Lamport's algorithm*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+- Logical clocks adjustments implemented in middleware.
+
+### Mutual Exclusion
+
+- Distributed processes need to coordinate to access shared resources
+- Uniprocessor systems use shared variables or OS support for mutual exclusion.
+- Not enough for DS. Distributed systems use message passing for mutual exclusion.
+
+**Types of Distributed Mutual Exclusion:**
+
+Two main categories:
+
+1. **Permission-based Approaches**: A process wanting to access a shared resource asks permission from one or multiple coordinators. Two types:
+
+    - Centralized Algorithms
+    - Decentralized Algorithms
+
+2. **Token-based Approaches**: 
+  - Every shared resource possesses a token.
+  - This token is passed among all processes.
+  - A process can access the resource only if it has the token.
+
+#### Centralized Algorithm
+
+  ![image-center](/assets/images/bca/s4-ds/s4-ds-mx-1.png){: .align-center}{: width="600" }
+
+*(a) Process 1 asks the coordinator for permission to access a shared resource. Permission is granted. (b) Process 2 then asks permission to access the same resource. The coordinator does not reply. (c) When process 1 releases the resource, it tells the coordinator, which then replies to 2.*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+**<u>Advantage</u>s**:
+- Guaranteed exclusive access by centralised control 
+- Fair algorithm guaranteeing order of requests 
+- No starvation of single processes 
+- Easy to implement 
+- Only three messages per entry in the critical region
+
+**<u>Disadvantages</u>**:
+- Coordinator becomes a single point of failure and a performance bottleneck
+- It is hard to see, if the coordinator is blocked or crashed (in this case, a new coordinator has to be determined)
+
+#### Decentralized Algorithm
+
+  ![image-center](/assets/images/bca/s4-ds/s4-ds-mx-2.png){: .align-center}{: width="700" }
+
+*(a) Two processes want to access a shared resource at the samemoment. (b) Process 0 has the lowest timestamp, so it wins. (c) When process 0 is done, it sends an OK also, so 2 can now go ahead.*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+- Based on a total ordering of event (happens-before relation)
+
+**<u>Algorithm</u>**:
+- *To enter a critical region, a process*:
+  - Builds a message: {name of critical region; process number; current time}
+  - Sends the message to all other processes (assuming reliable transfer)
+- *When a process receives a request message:*
+  - If not in critical region: sends OK.
+  - If in critical region: does not reply, queues request.
+  - If waiting to enter and has a later timestamp: sends OK; else queues request.
+
+#### Token Ring
+
+  ![image-center](/assets/images/bca/s4-ds/s4-ds-mx-3.png){: .align-center}{: width="700" }
+
+*(a) Two processes want to access a shared resource at the samemoment. (b) Process 0 has the lowest timestamp, so it wins. (c) When process 0 is done, it sends an OK also, so 2 can now go ahead.*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+- Processes are organized in a logical ring
+- A unique token circulates in the ring, and a process can enter its critical section only when it holds the token. 
+- After use, the token is passed to the next process.
+- Gurantees mutual exclusion
+- No starvation
+
+
+### Comparison of Mutual Exclusion Algorithms (Optional)
+
+| **Algorithm**  | **Messages for Operations** | **Entry Delay** | **Potential Issues**    |
+|:--------------:|:---------------------------:|:---------------:|:-----------------------:|
+| Centralized    | 3                           | 2               | Coordinator crash       |
+| Distributed    | 2 (n – 1)                   | 2 (n – 1)       | Crash of any process    |
+| Token Ring     | 1 to ∞                      | 0 to n – 1      | Lost token, process crash |
+
+- **Centralized**: Uses a main coordinator. Efficient but can fail if the coordinator crashes.
+- **Distributed**: Messages are sent to peers. If a process fails, it can disrupt the system.
+- **Token Ring**: Processes pass a "token" to enter critical sections. Delays can occur, especially if the token is lost or a process crashes.
+
+### Election Algorithms
+
+- An algorithm requires that some process acts a coordinator.
+
+#### Election by Bullying
+
+  ![image-center](/assets/images/bca/s4-ds/s4-ds-mx-4.png){: .align-center}{: width="600" }
+
+*The bully election algorithm. (a) Process 4 holds an election. (b) Processes 5 and 6 respond, telling 4 to stop. (c) Now 5 and 6 each hold an election. (d) Process 6 tells 5 to stop. (e) Process 6 wins and tells everyone.*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+**<u>Algorithm:</u>**
+1. P sends an ELECTION message to all processes with higher numbers.
+2. If no one responds, P wins the election and becomes coordinator.
+3. If one of the higher-ups answers, it takes over. P’s job is done.
+
+- Algorithm is named so because the dominance of higher ranked processes over lower ranked ones.
+
+#### Election in a Ring
+
+
+  ![image-center](/assets/images/bca/s4-ds/s4-ds-mx-5.png){: .align-center}{: width="700" }
+
+*Election algorithm using a ring.*
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+
+- Processes are physcally or logically ordered in a ring format.
+- No token are used
+
+**<u>Algorithm</u>**: 
+1. Process detects failure, sends ELECTION message with its ID.
+2. Each process adds its ID to the message.
+3. Original sender receives message, identifies highest ID.
+4. Sends COORDINATOR message, sets highest ID as leader.
+5. All other processes are new ring members.
