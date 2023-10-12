@@ -426,3 +426,5 @@ Two main categories:
 3. Original sender receives message, identifies highest ID.
 4. Sends COORDINATOR message, sets highest ID as leader.
 5. All other processes are new ring members.
+
+
