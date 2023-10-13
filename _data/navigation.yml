@@ -187,6 +187,8 @@ linux21days:
 s4ds:
   - title: Course Info
     children:
+      - title: "Mock Screens"
+        url: /sem4/s4-mock/
       - title: "Flashcards"
         url: /sem4/s4-de-flashcards/
       - title: "Important Topics - Part 1"
