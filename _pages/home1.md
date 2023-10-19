@@ -21,7 +21,7 @@ author_profile: false
 <br>
 
 <u><strong>Recent Updates:</strong></u>  
-[Distributed System's Notes are up!]({% link _sem4/2023-10-01-s4-de-important-topics-p1.md %})
+[Software Engineering's notes are up!]({% link _sem4/2023-10-19-s4-se-flashcards.md %})
 {: .notice--info}
 
 

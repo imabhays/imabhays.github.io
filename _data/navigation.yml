@@ -135,6 +135,8 @@ s3dm:
         url: /posts/bca/s3-mining-w11-w14/
 
 
+
+
 linux21days:
   - title: Linux Upskill Challenge
     children:
@@ -201,3 +203,12 @@ s4ds:
         url: /sem4/s4-de-important-topics-p4/
       - title: "Important Topics - Part 5"
         url: /sem4/s4-de-important-topics-p5/
+
+
+
+s4se:
+  - title: Course Info
+    children:
+      - title: "Flashcards"
+        url: /sem4/s4-se-flashcards/
+
