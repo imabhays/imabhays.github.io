@@ -20,9 +20,7 @@ author_profile: false
 
 <br>
 
-<u><strong>Recent Updates:</strong></u>  
-[Cloud Computing's notes are up!]({% link _sem4/2023-11-14-s4-gccf-important-p1.md %})
-{: .notice--info}
+
 
 
 

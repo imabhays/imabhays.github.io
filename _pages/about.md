@@ -5,11 +5,13 @@ layout: single
 author_profile: true
 
 ---
-My name is Abhay Singh, and I have a strong background in the creative field. However, I have decided to pivot my career towards the technical field, with a particular focus on information security. Currently, I am a student pursuing a [Bachelor of Computer Application (BCA)](/bca-resources.md) from Amrita Vishwa Vidyapeetham, where I am building a solid foundation in computer science principles.
+My name is Abhay Singh, certified Cybersecurity professional with a BCA and a strong foundation in cloud platforms, penetration testing and vulnerability management, supported by certifications like eJPT, AWS Certified Solutions Architect Associate, and (ISC)² Certified in Cybersecurity. 
 
-I maintain this site to document my learnings, write technical articles, and create knowledge base every semester for fellow students. 
+Transitioning from a successful technical career in CGI, where I collaborated with diverse clients to deliver innovative, high-impact solutions. Skilled in translating complex technical concepts for varied audiences, applying analytical problem-solving, and managing end-to-end projects. Committed to leveraging technical expertise and client-focused approaches to secure and optimize digital systems.
 
-My ultimate focus is to work in application security, and I am putting all my efforts into achieving this goal.  Additionally, I am preparing for CCNA certification to enhance my knowledge and skills in data and cyber security.
+I maintain this site to document my learnings, write technical articles, and create knowledge base for fellow students. 
+
+Currently, focusing on web application security and cloud security, and I am putting all my efforts into achieving this goal.  Additionally, I am preparing for Comptia Security+ certification to enhance my knowledge and skills in data and cyber security.
 
 Thank you for taking the time to learn about me.<br>
 

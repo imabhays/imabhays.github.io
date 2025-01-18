@@ -33,6 +33,6 @@ toc_icon: list
 * [DSA - Robert Sedgewick - Part I](https://www.coursera.org/learn/algorithms-part1){:target="_blank"}
 * [DSA - Robert Sedgewick - Part II](https://www.coursera.org/learn/algorithms-part2){:target="_blank"}
 * Automation and Scripting - Python
-* [One language of your choice - Java](https://java-programming.mooc.fi/){:target="_blank"}
+* [Java](https://java-programming.mooc.fi/){:target="_blank"}
 * Networking Fundamentals
 * Soft Skills
